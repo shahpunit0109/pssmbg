@@ -1,0 +1,561 @@
+body{
+  font-size: 16px;
+  background-color:#b37700;
+  font-family: 'Oxygen', sans-serif;
+  border: 0;
+  margin: 0;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+  margin: 0;
+}
+
+#logo-img {
+  background: url('../images/icon1.jpg') no-repeat;
+  width: 100px;
+  height: 100px;
+  margin: 10px 15px 10px -10px;
+}
+
+
+.navbar-brand h1 { /* website name */
+  font-family: 'Lora', serif;
+  color: #d147a3;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 2.7;
+  padding-left: 15px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.subitem { /* Kosher cert */
+  color:#d147a3 ;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  margin-top: 65px;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+#nav-list {
+  margin-top: 10px;
+
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  text-transform: capitalize;
+}
+#nav-list a:hover {
+  background: #ffdd99;
+}
+
+#nav-list a:active {
+  background: #ffdd99;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -45px;
+}
+
+.container > .navbar-header{
+margin-right: 0;
+height: 120px;
+}
+
+
+/* END HEADER */
+/*main content*/
+
+#intro{
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.container #jumbo {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+  margin-top: 25px;
+}
+/*about page*/
+
+#kavita-tile, #manisha-tile , #hiral-tile {
+  height: 314px;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  box-shadow: 7px 7px #1a1a00;
+}
+
+#kavita-tile {
+  background: url('../images/president.jpg') no-repeat;
+  background-position: center;
+}
+#manisha-tile {
+  background: url('../images/vice-president.jpg') no-repeat;
+  background-position: center;
+}
+#hiral-tile {
+  background: url('../images/treasurer.jpg') no-repeat;
+  background-position: center;
+}
+
+#kavita-tile span, #manisha-tile span, #hiral-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+#web{
+  text-align: center;
+  padding: 10px;
+}
+#row{
+  margin-top: 40px;
+}
+
+.thumbnail{
+    padding: 0;
+    background-color: #d6d6c2;
+}
+.caption{
+  background-color: #d6d6c2;
+}
+.caption h3{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+#secondpage{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: arial;
+  color: #000000;
+}
+#secondpage1{
+  text-align: center;
+  text-transform: capitalize;
+  font-family: arial;
+  color: #000000;
+}
+
+
+/*about page end*/
+
+/*contact page*/
+p{
+  margin:0 0 25px;
+  font-size:18px;
+  line-height:1.6em;
+}
+a{
+  color:#26a5d3;
+}
+a:hover,a:focus{
+  text-decoration:none;
+  color:#26a5d3;
+}
+#contact{
+  color:#4d2e00;
+  padding-bottom:80px;
+}
+
+textarea.form-control{
+    height:100px;
+}
+.form-group{
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.list-inline > li {
+    display: inline-block;
+   padding: 15px;
+}
+/*contact end*/
+/*work page*/
+/* Slideshow container */
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.menu-item-details{
+    padding-top: 25px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+/* Caption text */
+.text {
+  color: #000000;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: #f2f2f2;
+  opacity: .7;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  opacity: 1;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+#secondpage2{
+  text-align: center;
+  text-transform: capitalize;
+  color: #0000ff;
+  font-size: 20px;
+}
+
+/*end of work page*/
+
+ /*end of main content*/
+
+ /*footer*/
+.panel-footer {
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  background-color: #f6b319;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+ #address {
+  line-height: 2;
+  color: white;
+  text-transform: capitalize;
+}
+ #address > span {
+  font-size: 1.3em;
+}
+.lastline{
+  color: blue;
+  text-align: center;
+}
+.final{
+  font-size: 20px;
+}
+ a:hover{
+  color: red;
+}
+/*footer end*/
+/********** Large devices only **********/
+
+ @media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/jumbotron.1200.jpg') no-repeat;
+    height: 555px;
+  }
+
+  #jumbo{
+    padding: 0;
+  }
+    .column {
+    width: 33%;
+    display: block;
+  }
+
+  #secondpage2{
+  text-align: center;
+  text-transform: capitalize;
+  color: #0000ff;
+  padding-right: 65px;
+}
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+
+ .navbar-header{
+ 	margin-bottom: -30px;
+ }
+  #logo-img {
+    background: url('../images/icon1.jpg') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 10px 5px 5px 0;
+  }
+  .navbar-brand h1 { /* website name */
+  font-family: 'Lora', serif;
+  color: #d147a3;
+  font-size: 1.9em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 2.5;
+  padding-left: 15px;
+}
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron.992.jpg') no-repeat;
+    height: 458px;
+  }
+   #jumbo{
+    padding: 0;
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.navbar-brand h1
+		{
+		margin-left: -10px;
+		}
+.navbar-brand h1 { /* website name */
+  font-family: 'Lora', serif;
+  color: #d147a3;
+  font-size: 1.9em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 2.5;
+  padding-left: 25px;
+}
+  
+    
+
+
+  /* Home Page */
+  #intro{
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+}
+  .container .jumbotron {
+    background: url('../images/jumbotron.768.jpg') no-repeat;
+    height: 356px;
+  }
+  #jumbo{
+    padding: 0;
+  }
+#kavita-tile span, #manisha-tile span, #hiral-tile span{
+  font-size: 1em;
+}
+
+  /* End Home Page */
+
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+
+  .navbar-brand {
+    padding: 0 15px;
+    height: 80px;
+  }
+.navbar-brand h1 { /* website name */
+  font-family: 'Lora', serif;
+  color: #d147a3;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 4.2;
+}
+
+   .subitem{
+          padding-left: 0px;
+          width: 300px;
+          margin-left: 30px;
+          font-size: 3.5vh;
+   } 
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  
+
+  /* End Header */
+
+  /* Home Page */
+   #intro{
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+}
+  #jumbo{
+    padding: 0;
+  }
+#kavita-tile, #manisha-tile , #hiral-tile {
+     width: 360px;
+    margin: 0 auto 15px;
+}
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+
+.navbar-default .navbar-brand {
+  font-size: 15px;
+  padding-left: 0;
+  height: 30px;
+}
+.container > .navbar-header {
+    margin-right: 0;
+    height: 91px;
+}
+.navbar-brand h1 {
+  font-size: 1em;
+  line-height: 3.5;
+}
+
+.subitem { /* Kosher cert */
+  color:#d147a3 ;
+  text-transform: uppercase;
+  font-size: 1em;
+  margin-top: 40px;
+  padding-left: 10px;
+  margin-left: 15px;
+
+}
+
+  /* End Header */
+  
+  /* Home page */
+   #intro{
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+  #kavita-tile, #manisha-tile, #hiral-tile {
+    width: 284px;
+    margin: 15px auto;
+  }
+
+}
